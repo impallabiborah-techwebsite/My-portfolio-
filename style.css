@@ -1,142 +1,100 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
-    color: #333;
+body{
+  font-family: Arial,sans-serif;
+  background: #f5f5f5;
 }
-
-/* Header */
-
-header {
-    background: #222;
-    padding: 20px 8%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav{
+  background:#171717;
+  min-height: 150px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
 }
+.logo{
+  
 
-header h1 {
-    color: white;
+  color:#e9a52e;
+  font-size: 40px;
+  font-weight:bold;
+  line-height: 1.2;
 }
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
+.link{
+  display:gide;
+  grid-template-columns:1fr 1fr;
+  gap:12px 40px;
 }
-
-/* Hero */
-
-.hero {
-    min-height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.link a{
+  color: white ;
+  text-decoration: none;
+  font-size: 25px;
+}
+link a:hover{
+  color:#e9a52e;
+  }
+  .hero{
+    background:#222;
+    color: white ;
     text-align: center;
-    padding: 40px 20px;
-    background: #ddd;
+    padding:95px 20px;
+  }
+  .Hero h1{
+    color:#e9a52e;
+    font-size: 60px;
+    line-height: 1.2;
+  }
+  .hero p{
+    margin-top: 25px;
+    font-size: 28px;
+    color:#ddd;
+  }
+.gallery{
+  width: 85%;
+  max-width:900px;
+  margin: 60px auto;
+}
+.food-card{
+  background:white;
+  margin-bottom:50px;
+  border-radius:15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px #ccc;
+}
+.food-card img{
+  width: 100%;
+  height:420px;
+  object-fit:cover;
+  display: block ;
+}
+.food-card h2{
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  color:#222;
+}
+footer {
+    background: #171717;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
 }
 
-.hero-text {
-    max-width: 600px;
-}
-
-.hero h2 {
-    font-size: 42px;
+footer h2 {
+    color: #e9a52e;
+    font-size: 32px;
     margin-bottom: 15px;
 }
 
-.hero p {
+footer p {
+    color: #ccc;
     font-size: 18px;
-    line-height: 1.6;
     margin-bottom: 25px;
 }
 
-button {
-    padding: 12px 25px;
-    border: none;
-    border-radius: 6px;
-    background: #222;
-    color: white;
-    font-size: 16px;
-}
-
-/* About */
-
-.about {
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.about h2,
-.skills h2 {
-    font-size: 30px;
-    margin-bottom: 15px;
-}
-
-/* Skills */
-
-.skills {
-    text-align: center;
-    padding: 60px 8%;
-}
-
-.skill-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 30px;
-}
-
-.skill-box {
-    background: white;
-    padding: 30px;
-    width: 250px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px #ccc;
-}
-
-.skill-box h3 {
-    margin-bottom: 10px;
-}
-
-/* Footer */
-
-footer {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-/* Mobile */
-
-@media (max-width: 700px) {
-
-    header {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    nav a {
-        margin: 5px;
-    }
-
-    .hero h2 {
-        font-size: 32px;
-    }
-
-    .skill-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .skill-box {
-        width: 90%;
-    }
+.copyright {
+    border-top: 1px solid #444;
+    padding-top: 20px;
 }
