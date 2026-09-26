@@ -1,0 +1,98 @@
+body {
+  background-color: beige;
+}
+header{
+  color: purple;
+  text-align: center;
+  font-family: Georgia;
+}
+nav{
+  background-color:white;
+  display:flex;
+  justify-content:center;
+  padding: 10px;
+  gap:30px;
+  border-radius:10px;
+}
+nav a{
+  color: gray;
+  font-size: 18px;
+} 
+.about{
+  background-color: peachpuff;
+  border-radius: 10px;
+}
+.about h2{
+  color: purple;
+  text-align: center;
+  font-family: Georgia;
+}
+.about p{
+  color: brown;
+  font-size: 20px;
+  text-align: center;
+  font-family: courier New;
+  font-weight: lighter;
+}
+.skills{
+  background-color: peachpuff;
+  padding: 20px;
+  border-radius:10px;
+}
+.skills h3{
+  color: purple;
+  text-align: center;
+  font-family: Georgia;
+}
+}
+.skills ul{
+  background-color: peachpuff ;
+  
+}
+.skills li{
+  color: brown;
+  font-size: 20px;
+  text-align: left;
+  font-family: courier New;
+}
+.contact{
+  width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: peachpuff;
+}
+.contact h2{
+  color: purple;
+  font-family: georgia;
+  text-align: center;
+}
+.contact label{
+  display: block;
+  margin: top;
+  margin-bottom: 15px;
+  color: brown;
+}
+.contact input
+.contact textarea{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius:5px;
+}
+.contact textarea{
+  height: 100%;
+}
+.contact button{
+  width: 100px;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: gray;
+  color: beige;
+  cursor:pointer;
+  border-radius:5px;
+}
+footer{
+  text-align: center;
+  color: purple ;
+}
